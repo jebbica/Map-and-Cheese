@@ -38,7 +38,7 @@ if(correct_number != "yes"):
 
 
 # We want to ask the user if they want takeout or delivery
-takeout_deliv = input("Would you like to order for takeout or delivery? ")
+takeout_deliv = input("\nWould you like to order for takeout or delivery? ")
 print(f"Ordering for {takeout_deliv}\n")
 
 
@@ -53,11 +53,13 @@ print(f"Checking for {cuisine} food. \n")
 
 # We want to ask the user for their current address
 address = input("Enter your address: ")
-correct_address = input("Is your address entered correctly? ")
-if(correct_address != "no"):
+print(f"Your Address: {address}")
+correct_address = input("\nIs your address entered correctly? ")
+if(correct_address != "yes"):
     address = input("Enter your address: ")
-    print(f"Updated Address: {address}")
+    print(f"Updated Address: {address}\n")
 
 
 # Calculating Distances...
 print("Calculating Distances...")
+print("Please friggen work bruh ")
