@@ -18,7 +18,7 @@ if(correct_name == "no"):
     print(f"Updated Full Name: {first_name} {last_name}\n")
 
 
-age = int(input("Enter your age: "))
+age = int(input("\nEnter your age: "))
 correct_age = input("Is your age entered correctly? ")
 if(correct_age != "yes"):
     age = int(input("Enter your age: "))
@@ -61,5 +61,4 @@ if(correct_address != "yes"):
 
 
 # Calculating Distances...
-print("Calculating Distances...")
-print("Please friggen work bruh ")
+print("\nCalculating Distances...")
